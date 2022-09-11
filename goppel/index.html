@@ -17,7 +17,7 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'HTML-CSS-Kurs',
+      name: 'Goppel',
       homepage: 'index.md',
       auto2top: true,
       loadSidebar: true,
@@ -69,7 +69,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/bierstrasse/bierstrasse.github.io/blob/main/html-css/index.html' + vm.route.file
+            var url = 'https://github.com/bierstrasse/bierstrasse.github.io/blob/main/goppel/index.html' + vm.route.file
             var editHtml = '[Edit on GitHub](' + url + ')\n'
             return "<p style='text-align:right;'>{docsify-updated}<p>\n\n" + html
               + '\n\n----\n'
