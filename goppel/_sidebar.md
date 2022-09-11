@@ -15,11 +15,6 @@
   * [CSS und die Boxen](CSSUndDieBoxen.md)
   * [Layout mit CSS](LayoutMitCSS.md)
 
-* Projektaufgaben
-  * [Filmwebseite](filmwebseite.md)
-  * [Expertenaufgaben](expertenaufgaben.md) 
-
-
 
 * Apps
 
