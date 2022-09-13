@@ -1,4 +1,4 @@
-<!-- - [Home]()
+- [Home]()
 
 - [Introduction](introduction.md)
 
@@ -10,4 +10,4 @@
 
 - [Other Tools](other-tools.md)
 
-- [Donate](donate.md) -->
+- [Donate](donate.md) 
