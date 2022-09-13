@@ -1,10 +1,4 @@
-h2#libero-dictumst-mauris {
-color: green !important;
-}
-a {
-  color: #cacaff;
-}
-.active {
-  color: white;
-}
-
+:root {
+  --navbar-menu-link-color                        :red ;
+  --navbar-menu-link-color--active                :yellow ;
+  --navbar-menu-link-color--hover                 :green ;
