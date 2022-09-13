@@ -1,4 +1,4 @@
-![logo](https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png)
+<!-- ![logo](https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png)
 
 # docsify-darklight-theme-starter
 
@@ -9,4 +9,4 @@
 - Redesigned search box.
 
 [Preview](https://boopathikumar018.github.io/docsify-darklight-theme)
-[Getting Started](#headline)
+[Getting Started](#docsify) -->
