@@ -1,3 +1,10 @@
 h2#libero-dictumst-mauris {
 color: green !important;
 }
+a {
+  color: #cacaff;
+}
+.active {
+  color: white;
+}
+
