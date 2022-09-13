@@ -1,16 +1,1 @@
-/* Navbar
-============================================================================= */
-:root {
 
-    --navbar-menu-link-color                        :red;
-    --navbar-menu-link-color--active                :white;
-    --navbar-menu-link-color--hover                 :green;
-    --navbar-menu-link-margin                       : 0.75em 0.5em;
-    --navbar-menu-link-padding                      : 0.2em 0;
-    --navbar-menu-link-text-decoration              :dotted;
-    --navbar-menu-link-text-decoration--active      : ;
-    --navbar-menu-link-text-decoration--hover       : ;
-    --navbar-menu-link-text-decoration-color        : ;
-    --navbar-menu-link-text-decoration-color--active: ;
-    --navbar-menu-link-text-decoration-color--hover : ;
-}
