@@ -1,4 +1,4 @@
-- Getting started
+- Linke Sidebar Navigation
 
   - [Quick Start](quickstart.md)
   - wording.md
