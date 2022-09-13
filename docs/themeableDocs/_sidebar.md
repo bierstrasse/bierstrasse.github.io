@@ -1,5 +1,5 @@
 - Linke Sidebar Navigation
 
   - [Quick Start](quickstart.md)
-  - wording.md
+- wording Abteilung
   - [Wording](wording.md)
