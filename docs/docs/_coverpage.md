@@ -9,4 +9,4 @@
 - Redesigned search box.
 
 [Preview](https://boopathikumar018.github.io/docsify-darklight-theme)
-[Getting Started](#headline)
+[Getting Started](#docsify) -->
