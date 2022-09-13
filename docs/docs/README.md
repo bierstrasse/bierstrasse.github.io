@@ -1,7 +1,7 @@
 <h1 align="center">
     <img src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png" style="width: 160px;height: 100px;" alt="jsdeliver"> 
 </h1>
-<h1 align="center"> docsify-darklight-theme </h1>
+<h1 align="center"> AAAAAA-darklight-theme </h1>
 
 <p align="center">
     <a href="https://www.jsdelivr.com/package/npm/docsify-darklight-theme">
