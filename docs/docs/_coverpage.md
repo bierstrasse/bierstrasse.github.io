@@ -1,6 +1,6 @@
 ![logo](https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png)
 
-# docsify-darklight-theme-starter
+# holy moly
 
 > A magical documentation site generator with dark and light mode switch.
 
