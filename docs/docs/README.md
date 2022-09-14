@@ -2,6 +2,8 @@
     <img src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/icons/docsify-darklight-theme-logo.png" style="width: 160px;height: 100px;" alt="jsdeliver"> 
 </h1>
 <h1 align="center"> AAAAAA-darklight-theme </h1>
+wie ist die readme zur Startseite geworden? 
+Vielleicht in den Github Settings? 
 
 <p align="center">
     <a href="https://www.jsdelivr.com/package/npm/docsify-darklight-theme">
@@ -45,25 +47,4 @@ See the [Quick start](installation.md) guide for more details.
 - Themes are remembered and retrieved from local storage.
 - Redesigned search box.
 
-# Contributors
 
-[@boopathikumar](//boopathikumar.me) [@eswarijayakumar](https://github.com/eswarijayakumar) [@kumaravel](//kumaravel.me)
-
-# Showcase
-
-Check out the [Showcase](showcase.md) to see **docsify-darklight-theme** with docsify in use.
-
-# Release notes
-
-View the [Change log](changelog.md) to know the details of each versions.
-
-# Support
-
-- Create a [GitHub issue](https://github.com/boopathikumar018/docsify-darklight-theme/issues) for bug reports, feature requests, or questions
-- Follow [@docsify-darklight-theme](https://twitter.com/docsifyDrkLtThm) for announcements and release updates.
-- Add a ⭐️ [star on GitHub](https://github.com/boopathikumar018/docsify-darklight-theme) to support the plugin!
-
-# License
-
-This project is licensed under the terms of the [MIT](https://github.com/boopathikumar018/docsify-darklight-theme/blob/master/LICENSE) license.
- © [Boopathi Kumar](https://boopathikumar.me)
