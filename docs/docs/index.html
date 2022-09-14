@@ -24,14 +24,13 @@
 </head>
 
 <body>
-  <div id="app">We are building somthing special for you ...</div>
+  <div id="app">We are building somthing for you ...</div>
   <script>
     window.$docsify = {
       search: 'auto', // default
       search : [
         '/',
       ],
-      repo: 'https://github.com/boopathikumar018/docsify-darklight-theme',
       plugins: [
         function(hook) {
           var footer = [
@@ -63,18 +62,18 @@
         }
       },
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
-     
-      
       darklightTheme: {
-            siteFont : "PT Sans",
+            siteFont : "times new roman",
             defaultTheme : 'dark',
       dark: {
-                --cover-background-color: #ccc!important;
+      --cover-background-color: '#ccc',
+        --cover-color: 'red',     
             },
-            light: {
-                accent: '#42b983',
-                         }
-    }
+      light: {
+        --cover-background-color: '#000000',
+      color: '#42b983',
+            }
+                      }
      } 
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
