@@ -85,7 +85,7 @@ ul.cardlist {
 
 ul.cardlist li {
   color: #21252b;
-  background-image: url(http://tele-optics.com/wp-content/uploads/icon_listbullet.png);
+  background-image: url(/icon_listbullet.png);
   background-repeat: no-repeat;
   background-position: 0px center;
   padding-left: 20px;
