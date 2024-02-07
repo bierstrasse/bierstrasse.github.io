@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"02a0f3bb34d8c072","x":-1140,"y":-780,"width":400,"height":400,"type":"file","file":"web-grav3/src/googleguide/docs/drafts/alles_Untitled-1.md"},
+		{"type":"file","file":"web-grav3/src/googleguide/docs/drafts/Testtitel um damit irgendwas zu machen.md","id":"51eb28efa608ba2d","x":-560,"y":-670,"width":240,"height":580,"color":"3"}
+	],
+	"edges":[]
+}

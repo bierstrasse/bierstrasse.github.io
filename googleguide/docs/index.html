@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon"
+        href="http://web-grav3.datamints.barrero.test1.datamints.local/googleguide/docs/assets/img/favicon.ico">
+    <link rel="icon" type="image/vnd.microsoft.icon"
+        href="http://web-grav3.datamints.barrero.test1.datamints.local/googleguide/docs/assets/img/favicon.ico">
+    <link rel="icon"
+        href="http://web-grav3.datamints.barrero.test1.datamints.local/googleguide/docs/assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover" />
+    <meta name="description"
+        content="A delightfully simple theme system for docsify.js. Features multiple themes with rich customization options, an improved desktop and mobile experience, and legacy browser support (IE11+)." />
+
+    <title>
+        datamints
+    </title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" data-style-group="themeable" media="(prefers-color-scheme: dark)"
+        href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" />
+    <link rel="stylesheet" data-style-group="themeable" media="(prefers-color-scheme: light)"
+        href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" />
+
+    <!-- Custom theme styles -->
+    <style>
+        @media (min-width: 48em) {
+            .sidebar {
+                width: 17vw;
+                transform: translateX(17vw);
+            }
+
+            .sidebar-toggle {
+                transform: translateX(17vw);
+            }
+        }
+
+        .markdown-section blockquote {
+            border-color: green;
+        }
+
+        .sidebar-toggle {
+            z-index: 9999999;
+        }
+        
+        .markdown-section h2 {
+            border-style: none;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+
+    <script>
+        // Docsify
+        window.$docsify = {
+            // GENERAL
+            // -----------------------------------------------------------------
+            name: "datamints doc",
+            repo: "",
+            coverpage: "coverpage.md",
+            homepage: "introduction.md",
+            loadSidebar: "sidebar.md",
+            loadNavbar: "navbar.md",
+
+            // NAVIGATION
+            // -----------------------------------------------------------------
+            auto2top: true,
+            maxLevel: 6,
+            subMaxLevel: 6,
+
+            // PLUGINS
+            // -----------------------------------------------------------------
+            executeScript: true,
+            search: {
+                depth: 6,
+                noData: "No results!",
+                placeholder: "Search...",
+            },
+            plugins: [
+                // Restores initial <title>
+                function persistTitle(hook, vm) {
+                    var titleElm = document.querySelector("title");
+                    var rootTitle = titleElm && titleElm.textContent;
+                    var pageTitlePrefix = window.$docsify.name
+                        ? window.$docsify.name + " - "
+                        : "";
+
+                    if (rootTitle) {
+                        hook.doneEach(function () {
+                            var currentTitle = titleElm.textContent;
+                            var isRoot = !/\/[a-z]/.test(location.hash);
+                            var newTitle = isRoot
+                                ? rootTitle
+                                : pageTitlePrefix + currentTitle;
+
+                            titleElm.textContent = newTitle;
+                        });
+                    }
+                }
+            ],
+        };
+    </script>
+
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/footnote_index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+ <!-- index.html or wherever you initialize Docsify -->
+<script src="assets/js/nometainfrontend.js"></script>
+
+
+<!-- datatables -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+
+<!-- DataTables JS -->
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+
+
+
+</body>
+
+</html>
