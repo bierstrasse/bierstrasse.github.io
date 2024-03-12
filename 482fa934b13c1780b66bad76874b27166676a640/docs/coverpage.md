@@ -1,8 +1,8 @@
-# datamints guide
+<!--# datamints guide
 
 > Google Workspace
 
-<!-- > A delightfully simple theme system for [docsify.js](https://docsify.js.org) -->
+ > A delightfully simple theme system for [docsify.js](https://docsify.js.org) 
 
 Kurzanleitungen, Informationen für admins
 
